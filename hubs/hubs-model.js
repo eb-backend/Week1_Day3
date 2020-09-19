@@ -68,3 +68,16 @@ async function addMessage(message) {
 
   return findMessageById(id);
 }
+
+
+// function findHubsMessageById(id) {
+//   return db('messages')
+//     .where({ id })
+//     .first();
+// }
+
+// async function addMessage(message) {
+//   const [id] = await db('messages').insert(message);
+
+//   return findHubsMessageById(id);
+// }
