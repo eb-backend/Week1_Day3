@@ -1,5 +1,14 @@
 # Node API 2 Guided Project Starter Code
 
+## Recap-
+* Learned how to use 3rd party middle ware, like morgan to extract info from users accessing api
+  
+* We created a custom middleware that stops api access via Postman or Insomnia. 
+  
+* We extracted repetitive logger/middleware from the callback functions of the router calls. So now 
+
+* We created a validate middleware
+
 Guided project starter code for **Node API 2** module.
 
 In this project we will learn how to create a very simple Web API using `Node.js` and `Express`, and cover how to use `Express Routers` to break up the application to make it more maintainable.
@@ -15,3 +24,5 @@ In this project we will learn how to create a very simple Web API using `Node.js
 - [ ] type `npm i` to download dependencies.
 
 Please follow along as the instructor builds the API step by step.
+
+

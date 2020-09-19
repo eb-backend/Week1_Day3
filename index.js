@@ -18,10 +18,19 @@ server.use(express.json());
 //   next()
 // })
 server.use(logger())
-server.use(deny())
+// server.use(deny())
 
 server.use(userRouter)
 server.use(userWelcome)
+
+//express is going to use this error catching middleware
+server.use((err, req,res, next)=>{
+  console.log(err)
+  res.status(500).json({
+    message: "Something went wrong, try again later"
+  })
+
+})
 
 
 
